@@ -1,0 +1,86 @@
+/* advancecircle.com — 旧 WordPress 子テーマ（twentyseventeen-child）の独自クラスを移植 */
+*{box-sizing:border-box}
+body{margin:0;color:#222;background:#fff;line-height:1.9;font-size:15px;
+  font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","YuGothic","Meiryo",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#0b5fa5}
+img{max-width:100%;height:auto}
+.site-header{border-bottom:1px solid #e5e5e5;padding:14px 16px;text-align:center}
+.site-header a{color:#222;text-decoration:none;font-weight:bold;letter-spacing:.08em}
+.content{max-width:40em;margin:0 auto;padding:24px 16px 48px}
+.site-footer{border-top:1px solid #e5e5e5;padding:24px 16px;text-align:center;font-size:14px;color:#666}
+.site-footer p{margin:.3em 0}
+.small{font-size:12px}
+.video{position:relative;width:100%;padding-top:56.25%;margin:1em 0}
+.video iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+table{border-collapse:collapse;margin:1em auto;width:100%}
+td{vertical-align:top;padding:.4em}
+/* top page */
+.top-title{font-size:1.6em;text-align:center;margin:.6em 0 1.2em}
+.top-sec{margin:0 0 2.2em}
+.top-sec h2{font-size:1.1em;border-left:4px solid #0086d1;padding-left:.6em;margin:0 0 .6em}
+.top-list{margin:0;padding-left:1.2em}
+.top-list li{margin:.35em 0}
+/* ported classes */
+.hiroto_lppage_wrapper{max-width:35em;margin:auto;text-align:center;font-size:14px}
+.font_bold{font-weight:bold}
+.hiroto_center{text-align:center}
+.hiroto_space{display:block;height:2.0em}
+.hiroto_bullet_left{display:inline-block;text-align:left}
+.hiroto_content_h2{font-size:1.2em;font-weight:bold}
+.hiroto_torikeshi{text-decoration:line-through}
+.hiroto_img_lpprof{width:7.0em}
+.hiroto_lpprof_name{font-size:1.1em;font-weight:bold}
+.hiroto_lpprof{font-size:0.8em;font-weight:bold;text-align:left}
+.hiroto_lptable_tdimg{text-align:center;width:25%}
+.hiroto_lptable_tdprof{padding-left:0.5em;width:75%;text-align:left}
+.hiroto_lptable_tdprof ul{margin:0;padding-left:1.2em}
+.hiroto_lptable_tdprof li{margin:.2em 0}
+.hiroto_lptable_tdprof .sum{font-weight:bold}
+.hiroto_lptopspace{padding-top:2.0em}
+.hiroto_lptitle{font-size:1.35em;font-weight:bold}
+.hiroto_lptitle2{font-size:1.2em;font-weight:bold}
+.hiroto_lpseries{font-size:0.8em;font-weight:bold}
+.hiroto_lpsubtitle{font-size:1.0em;font-weight:bold}
+.hiroto_lpstep{font-size:1.0em;font-weight:bold}
+.hiroto_lpstepsub{font-size:0.7em;font-weight:bold}
+.hiroto_lpkakiokoshi{font-size:1.0em;text-align:left}
+.hiroto_lpkakiokoshi_strong{font-size:1.25em;font-style:italic;text-decoration:underline;font-weight:bold}
+.hiroto_each_contenttable{max-width:35em;margin:auto}
+.consult_yu{background-color:#eeffff}
+.consult_you{background-color:#ffeeff}
+.consult_third{background-color:#ffeecc}
+.consult_all{background-color:#66ff99}
+.hiroto_img_hukidashi{width:25em;max-width:100%;height:auto}
+.hiroto_202303bold{font-size:1.35rem;font-weight:bold;color:#007eb5}
+.hiroto_202303lineheight{line-height:2.0}
+.hiroto_dell2{text-decoration-line:line-through;text-decoration-style:double}
+h2.kakko{margin:35px auto;padding:25px 25px;font-weight:600;font-style:normal;font-size:1.2rem;text-align:center;
+  line-height:1.4;color:#007eb5;display:inline-block;position:relative}
+h2.kakko:before,h2.kakko:after{content:'';width:20px;height:30px;position:absolute;display:inline-block}
+h2.kakko:before{border-left:solid 2px #007eb5;border-top:solid 2px #007eb5;top:0;left:0}
+h2.kakko:after{border-right:solid 2px #007eb5;border-bottom:solid 2px #007eb5;bottom:0;right:0}
+ul.list2023{margin:25px;padding:0;list-style:none}
+ul.list2023 li{padding:5px 0 5px 30px;font-size:1.1rem;font-weight:bold;line-height:1.4;text-indent:-30px}
+ul.list2023 li span{margin:0 5px 0 0;padding:4px 7px;font-size:85%;color:#fff;border-radius:2px;background:#0086d1}
+.legal h1{font-size:1.4em;margin:.4em 0 .2em}
+.legal .legal-h1-2{margin-top:2.4em}
+.legal .date{color:#666;font-size:13px;margin:0 0 1.6em}
+.legal h2{font-size:1.05em;margin:1.8em 0 .4em;padding-bottom:.3em;border-bottom:1px solid #e5e5e5}
+.legal ul{padding-left:1.2em}
+.legal-table{width:100%;border-collapse:collapse;font-size:14px}
+.legal-table th,.legal-table td{border:1px solid #ddd;padding:.6em .8em;text-align:left;vertical-align:top}
+.legal-table th{background:#f5f5f5;width:32%;font-weight:bold}
+.terms{margin:2em auto;text-align:left;max-width:36em}
+.terms-title{font-weight:bold;font-size:1.05em;margin:0 0 .4em;text-align:center}
+.terms .legal-table th{width:28%}
+.mail-img{vertical-align:middle;height:1.2em;width:auto}
+@media (min-width:48em){
+  .hiroto_lptitle{font-size:2.5em}
+  .hiroto_lptitle2{font-size:2.1em}
+  .hiroto_lpseries{font-size:1.0em}
+  .hiroto_lpsubtitle{font-size:1.5em}
+  .hiroto_lpstep{font-size:1.5em}
+  .hiroto_lpstepsub{font-size:0.9em}
+  .hiroto_lpprof{font-size:0.9em}
+  .hiroto_lpkakiokoshi_strong{font-size:2.1em}
+}
