@@ -86,3 +86,8 @@ ul.list2023 li span{margin:0 5px 0 0;padding:4px 7px;font-size:85%;color:#fff;bo
   .hiroto_lpprof{font-size:0.9em}
   .hiroto_lpkakiokoshi_strong{font-size:2.1em}
 }
+
+.apply-button{text-align:center;margin:1.5em 0}
+.apply-button img{max-width:100%;height:auto}
+.form-link{text-align:center;margin:1.5em 0}
+.form-link a{display:inline-block;padding:.6em 1.8em;border:2px solid currentColor;border-radius:6px;text-decoration:none;font-weight:bold}
